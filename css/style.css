@@ -1,7 +1,7 @@
 #container_scacchiera .col{
-    flex: 1 0 calc(100% / 7);
-   
-    max-width: calc(100% / 7);
+    flex: 1 0 calc(100% / 7 - 10px);
+    max-width: calc(100% / 7 - 10px);
+    margin: 5px;
    
 }
 .mybox{
@@ -13,7 +13,7 @@
 .buzz{
     background-color: red;
 }
-
 .fizzbuzz{
     background-color: seagreen;
 }
+

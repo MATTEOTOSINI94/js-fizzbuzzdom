@@ -20,12 +20,13 @@ for (let i = 1; i <= 100; i++){
     // qui sono andato a creare nuovamente un'altra variabile che successivamente verrà assegnata alla mia row(variabile creata prima)
     const col = document.createElement("div")
 
-    col.classList.add("col","ratio","border","ratio-1x1")
+    col.classList.add("col","ratio","ratio-1x1")
     // qui vado a inserirla nella mia riga
     row.append(col)
     // qui sono andato a creare un'altra variabile da inserire successivamente all'interno della col successivamente
     const box = document.createElement("div")
     col.append(box)
+    
 
 
     // in questa fase sono andato ad assegnare lo sfondo e il testo attraverso le condizioni

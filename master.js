@@ -26,6 +26,8 @@ for (let i = 1; i <= 100; i++){
     // qui sono andato a creare un'altra variabile da inserire successivamente all'interno della col successivamente
     const box = document.createElement("div")
     col.append(box)
+
+    box.classList.add("d-flex","justify-content-center","align-items-center")
     
 
 
